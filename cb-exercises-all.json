@@ -1006,7 +1006,9 @@
       "biceps",
       "rear delts"
     ],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 2,
     "phase": [
       2,
@@ -2646,7 +2648,9 @@
       "chest",
       "shoulders"
     ],
-    "equipment": [],
+    "equipment": [
+      "dip_bars"
+    ],
     "difficulty": 2,
     "phase": [
       2,
@@ -10803,7 +10807,9 @@
     "secondary": [
       "shoulders"
     ],
-    "equipment": [],
+    "equipment": [
+      "ab_wheel"
+    ],
     "difficulty": 3,
     "phase": [
       2,
@@ -12391,7 +12397,10 @@
       "core",
       "biceps"
     ],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar",
+      "bands"
+    ],
     "difficulty": 2,
     "phase": [
       1,
@@ -14278,7 +14287,8 @@
       "triceps"
     ],
     "equipment": [
-      "bands"
+      "bands",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -20348,7 +20358,8 @@
       "triceps"
     ],
     "equipment": [
-      "dumbbells"
+      "dumbbells",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -21508,7 +21519,8 @@
       "triceps"
     ],
     "equipment": [
-      "dumbbells"
+      "dumbbells",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -21558,7 +21570,8 @@
       "triceps"
     ],
     "equipment": [
-      "dumbbells"
+      "dumbbells",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -23596,7 +23609,9 @@
       "calves",
       "hamstrings"
     ],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 3,
     "phase": [
       2,
@@ -23698,7 +23713,8 @@
     "muscle": "chest",
     "secondary": [],
     "equipment": [
-      "cable_machine"
+      "cable_machine",
+      "bench"
     ],
     "difficulty": 3,
     "phase": [
@@ -23742,7 +23758,9 @@
     "name": "Flat Bench Leg Pull-In",
     "muscle": "core",
     "secondary": [],
-    "equipment": [],
+    "equipment": [
+      "bench"
+    ],
     "difficulty": 2,
     "phase": [
       1,
@@ -23789,7 +23807,9 @@
     "name": "Flat Bench Lying Leg Raise",
     "muscle": "core",
     "secondary": [],
-    "equipment": [],
+    "equipment": [
+      "bench"
+    ],
     "difficulty": 2,
     "phase": [
       1,
@@ -25563,7 +25583,8 @@
       "triceps"
     ],
     "equipment": [
-      "dumbbells"
+      "dumbbells",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -26012,7 +26033,8 @@
     "equipment": [
       "barbell",
       "rack",
-      "bench"
+      "bench",
+      "pullup_bar"
     ],
     "difficulty": 4,
     "phase": [
@@ -26063,7 +26085,9 @@
     "name": "Hanging Pike",
     "muscle": "core",
     "secondary": [],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 5,
     "phase": [
       4
@@ -29406,7 +29430,9 @@
       "shoulders",
       "triceps"
     ],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 3,
     "phase": [
       2,
@@ -32726,7 +32752,8 @@
       "triceps"
     ],
     "equipment": [
-      "machine"
+      "machine",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -33479,7 +33506,9 @@
       "shoulders",
       "triceps"
     ],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 3,
     "phase": [
       2,
@@ -34134,7 +34163,8 @@
     "muscle": "chest",
     "secondary": [],
     "equipment": [
-      "dumbbells"
+      "dumbbells",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -35312,7 +35342,9 @@
     "secondary": [
       "biceps"
     ],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 5,
     "phase": [
       4
@@ -35361,7 +35393,8 @@
       "triceps"
     ],
     "equipment": [
-      "dumbbells"
+      "dumbbells",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -36583,7 +36616,9 @@
       "chest",
       "shoulders"
     ],
-    "equipment": [],
+    "equipment": [
+      "dip_bars"
+    ],
     "difficulty": 2,
     "phase": [
       1,
@@ -37922,7 +37957,9 @@
     "secondary": [
       "biceps"
     ],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 2,
     "phase": [
       1,
@@ -39093,7 +39130,8 @@
     "equipment": [
       "barbell",
       "rack",
-      "bench"
+      "bench",
+      "bands"
     ],
     "difficulty": 6,
     "phase": [
@@ -39935,7 +39973,9 @@
       "chest",
       "shoulders"
     ],
-    "equipment": [],
+    "equipment": [
+      "dip_bars"
+    ],
     "difficulty": 3,
     "phase": [
       2,
@@ -40089,7 +40129,9 @@
       "biceps",
       "shoulders"
     ],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 3,
     "phase": [
       2,
@@ -40664,7 +40706,9 @@
     "name": "Scapular Pull-Up",
     "muscle": "back",
     "secondary": [],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 2,
     "phase": [
       1,
@@ -41588,7 +41632,9 @@
     "name": "Seated Flat Bench Leg Pull-In",
     "muscle": "core",
     "secondary": [],
-    "equipment": [],
+    "equipment": [
+      "bench"
+    ],
     "difficulty": 2,
     "phase": [
       1,
@@ -44729,7 +44775,8 @@
       "triceps"
     ],
     "equipment": [
-      "machine"
+      "machine",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -44875,7 +44922,8 @@
       "shoulders"
     ],
     "equipment": [
-      "machine"
+      "machine",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -45076,7 +45124,8 @@
       "triceps"
     ],
     "equipment": [
-      "machine"
+      "machine",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -48622,7 +48671,8 @@
     "muscle": "biceps",
     "secondary": [],
     "equipment": [
-      "dumbbells"
+      "dumbbells",
+      "bench"
     ],
     "difficulty": 2,
     "phase": [
@@ -52069,7 +52119,9 @@
       "biceps",
       "shoulders"
     ],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 2,
     "phase": [
       1,
@@ -52476,7 +52528,9 @@
     "secondary": [
       "biceps"
     ],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 3,
     "phase": [
       2,
@@ -52941,7 +52995,9 @@
       "biceps",
       "shoulders"
     ],
-    "equipment": [],
+    "equipment": [
+      "pullup_bar"
+    ],
     "difficulty": 3,
     "phase": [
       2,
