@@ -1,517 +1,796 @@
 {
   "version": 3,
-  "generated": "2026-05-01T07:26:15.238575+00:00",
+  "generated": "2026-05-04T19:56:37.864769+00:00",
   "categories": [
-    "beef_pork",
+    "beef",
+    "lamb",
+    "pork",
     "poultry",
     "seafood",
     "eggs",
-    "dairy",
+    "milk",
+    "cheese",
+    "yogurt",
     "legumes",
-    "nuts_seeds",
     "soy",
+    "nuts",
+    "seeds",
     "grains",
-    "bakery",
+    "rice",
     "pasta",
+    "bakery",
     "vegetables",
     "fruits",
+    "dried_fruits",
     "fats_oils",
+    "spreads",
     "beverages",
+    "hot_drinks",
+    "juices",
+    "water",
     "alcohol",
-    "soups",
     "meals",
+    "soups",
+    "fast_food",
+    "frozen_meals",
     "desserts",
-    "snacks",
     "candy",
-    "condiments",
+    "ice_cream",
+    "chips",
+    "crackers",
+    "snack_bars",
+    "sauces",
+    "spices",
+    "dressings",
     "supplements",
+    "sports_nutrition",
     "baby_food",
     "other"
+  ],
+  "parent_categories": [
+    {
+      "id": "animal_protein",
+      "label": "\ud83e\udd69 Animal Protein",
+      "children": [
+        "beef",
+        "lamb",
+        "pork",
+        "poultry",
+        "seafood",
+        "eggs"
+      ]
+    },
+    {
+      "id": "dairy",
+      "label": "\ud83e\udd5b Dairy",
+      "children": [
+        "milk",
+        "cheese",
+        "yogurt"
+      ]
+    },
+    {
+      "id": "plant_protein",
+      "label": "\ud83c\udf31 Plant Protein",
+      "children": [
+        "legumes",
+        "soy"
+      ]
+    },
+    {
+      "id": "nuts",
+      "label": "\ud83e\udd5c Nuts",
+      "children": [
+        "nuts"
+      ]
+    },
+    {
+      "id": "seeds",
+      "label": "\ud83c\udf30 Seeds",
+      "children": [
+        "seeds"
+      ]
+    },
+    {
+      "id": "grains_and_carbs",
+      "label": "\ud83c\udf3e Grains & Carbs",
+      "children": [
+        "grains",
+        "rice",
+        "pasta",
+        "bakery"
+      ]
+    },
+    {
+      "id": "vegetables",
+      "label": "\ud83e\udd66 Vegetables",
+      "children": [
+        "vegetables"
+      ]
+    },
+    {
+      "id": "fruits",
+      "label": "\ud83c\udf4e Fruits",
+      "children": [
+        "fruits",
+        "dried_fruits"
+      ]
+    },
+    {
+      "id": "fats_and_oils",
+      "label": "\ud83e\uded9 Fats & Oils",
+      "children": [
+        "fats_oils",
+        "spreads"
+      ]
+    },
+    {
+      "id": "drinks",
+      "label": "\ud83e\udd64 Drinks",
+      "children": [
+        "beverages",
+        "hot_drinks",
+        "juices",
+        "water",
+        "alcohol"
+      ]
+    },
+    {
+      "id": "meals_and_prepared",
+      "label": "\ud83c\udf7d\ufe0f Meals & Prepared",
+      "children": [
+        "meals",
+        "soups",
+        "fast_food",
+        "frozen_meals"
+      ]
+    },
+    {
+      "id": "desserts_and_sweets",
+      "label": "\ud83c\udf70 Desserts & Sweets",
+      "children": [
+        "desserts",
+        "candy",
+        "ice_cream"
+      ]
+    },
+    {
+      "id": "salty_snacks",
+      "label": "\ud83c\udf7f Salty Snacks",
+      "children": [
+        "chips",
+        "crackers",
+        "snack_bars"
+      ]
+    },
+    {
+      "id": "condiments",
+      "label": "\ud83e\uddc2 Condiments",
+      "children": [
+        "sauces",
+        "spices",
+        "dressings"
+      ]
+    },
+    {
+      "id": "supplements",
+      "label": "\ud83d\udc8a Supplements",
+      "children": [
+        "supplements",
+        "sports_nutrition"
+      ]
+    },
+    {
+      "id": "baby_food",
+      "label": "\ud83d\udc76 Baby Food",
+      "children": [
+        "baby_food"
+      ]
+    },
+    {
+      "id": "other",
+      "label": "\ud83c\udf74 Other",
+      "children": [
+        "other"
+      ]
+    }
   ],
   "total": 1270403,
   "chunks": [
     {
-      "category": "beef_pork",
-      "file": "cb-foods-beef_pork.json",
-      "count": 10026,
-      "size_kb": 6501,
+      "category": "beef",
+      "file": "cb-foods-beef-1of2.json",
+      "count": 22440,
+      "size_kb": 15050,
+      "part": 1,
+      "parts": 2
+    },
+    {
+      "category": "beef",
+      "file": "cb-foods-beef-2of2.json",
+      "count": 5045,
+      "size_kb": 3353,
+      "part": 2,
+      "parts": 2
+    },
+    {
+      "category": "lamb",
+      "file": "cb-foods-lamb.json",
+      "count": 684,
+      "size_kb": 456,
       "parts": 1
     },
     {
+      "category": "pork",
+      "file": "cb-foods-pork-1of2.json",
+      "count": 22346,
+      "size_kb": 14924,
+      "part": 1,
+      "parts": 2
+    },
+    {
+      "category": "pork",
+      "file": "cb-foods-pork-2of2.json",
+      "count": 2488,
+      "size_kb": 1684,
+      "part": 2,
+      "parts": 2
+    },
+    {
       "category": "poultry",
-      "file": "cb-foods-poultry.json",
-      "count": 6884,
-      "size_kb": 4354,
-      "parts": 1
+      "file": "cb-foods-poultry-1of2.json",
+      "count": 21881,
+      "size_kb": 14769,
+      "part": 1,
+      "parts": 2
+    },
+    {
+      "category": "poultry",
+      "file": "cb-foods-poultry-2of2.json",
+      "count": 6817,
+      "size_kb": 4624,
+      "part": 2,
+      "parts": 2
     },
     {
       "category": "seafood",
       "file": "cb-foods-seafood.json",
-      "count": 6511,
-      "size_kb": 4056,
+      "count": 19156,
+      "size_kb": 12852,
       "parts": 1
     },
     {
       "category": "eggs",
       "file": "cb-foods-eggs.json",
-      "count": 2293,
-      "size_kb": 1402,
+      "count": 8973,
+      "size_kb": 5933,
       "parts": 1
     },
     {
-      "category": "dairy",
-      "file": "cb-foods-dairy.json",
-      "count": 26391,
-      "size_kb": 15255,
+      "category": "milk",
+      "file": "cb-foods-milk-1of3.json",
+      "count": 25904,
+      "size_kb": 15290,
+      "part": 1,
+      "parts": 3
+    },
+    {
+      "category": "milk",
+      "file": "cb-foods-milk-2of3.json",
+      "count": 25904,
+      "size_kb": 15294,
+      "part": 2,
+      "parts": 3
+    },
+    {
+      "category": "milk",
+      "file": "cb-foods-milk-3of3.json",
+      "count": 12738,
+      "size_kb": 7648,
+      "part": 3,
+      "parts": 3
+    },
+    {
+      "category": "cheese",
+      "file": "cb-foods-cheese.json",
+      "count": 23678,
+      "size_kb": 14120,
+      "parts": 1
+    },
+    {
+      "category": "yogurt",
+      "file": "cb-foods-yogurt.json",
+      "count": 5734,
+      "size_kb": 3378,
       "parts": 1
     },
     {
       "category": "legumes",
       "file": "cb-foods-legumes.json",
-      "count": 3703,
-      "size_kb": 2391,
+      "count": 11883,
+      "size_kb": 7978,
       "parts": 1
     },
     {
-      "category": "nuts_seeds",
-      "file": "cb-foods-nuts_seeds.json",
-      "count": 3540,
-      "size_kb": 2175,
-      "parts": 1
+      "category": "nuts",
+      "file": "cb-foods-nuts-1of2.json",
+      "count": 23581,
+      "size_kb": 14468,
+      "part": 1,
+      "parts": 2
     },
     {
-      "category": "soy",
-      "file": "cb-foods-soy.json",
-      "count": 32,
-      "size_kb": 20,
+      "category": "nuts",
+      "file": "cb-foods-nuts-2of2.json",
+      "count": 7473,
+      "size_kb": 4628,
+      "part": 2,
+      "parts": 2
+    },
+    {
+      "category": "seeds",
+      "file": "cb-foods-seeds.json",
+      "count": 8874,
+      "size_kb": 5268,
       "parts": 1
     },
     {
       "category": "grains",
-      "file": "cb-foods-grains.json",
-      "count": 19646,
-      "size_kb": 11588,
-      "parts": 1
-    },
-    {
-      "category": "bakery",
-      "file": "cb-foods-bakery-1of2.json",
-      "count": 26230,
-      "size_kb": 15000,
+      "file": "cb-foods-grains-1of2.json",
+      "count": 24138,
+      "size_kb": 15375,
       "part": 1,
       "parts": 2
     },
     {
-      "category": "bakery",
-      "file": "cb-foods-bakery-2of2.json",
-      "count": 5775,
-      "size_kb": 3402,
+      "category": "grains",
+      "file": "cb-foods-grains-2of2.json",
+      "count": 209,
+      "size_kb": 141,
       "part": 2,
       "parts": 2
+    },
+    {
+      "category": "rice",
+      "file": "cb-foods-rice.json",
+      "count": 5359,
+      "size_kb": 3399,
+      "parts": 1
     },
     {
       "category": "pasta",
       "file": "cb-foods-pasta.json",
-      "count": 344,
-      "size_kb": 206,
+      "count": 17255,
+      "size_kb": 10506,
+      "parts": 1
+    },
+    {
+      "category": "bakery",
+      "file": "cb-foods-bakery.json",
+      "count": 518,
+      "size_kb": 351,
       "parts": 1
     },
     {
       "category": "vegetables",
-      "file": "cb-foods-vegetables.json",
-      "count": 12586,
-      "size_kb": 7955,
-      "parts": 1
+      "file": "cb-foods-vegetables-1of3.json",
+      "count": 22040,
+      "size_kb": 14738,
+      "part": 1,
+      "parts": 3
+    },
+    {
+      "category": "vegetables",
+      "file": "cb-foods-vegetables-2of3.json",
+      "count": 22040,
+      "size_kb": 14707,
+      "part": 2,
+      "parts": 3
+    },
+    {
+      "category": "vegetables",
+      "file": "cb-foods-vegetables-3of3.json",
+      "count": 6558,
+      "size_kb": 4392,
+      "part": 3,
+      "parts": 3
     },
     {
       "category": "fruits",
-      "file": "cb-foods-fruits.json",
-      "count": 6873,
-      "size_kb": 4004,
-      "parts": 1
-    },
-    {
-      "category": "fats_oils",
-      "file": "cb-foods-fats_oils.json",
-      "count": 8393,
-      "size_kb": 4907,
-      "parts": 1
-    },
-    {
-      "category": "beverages",
-      "file": "cb-foods-beverages-1of2.json",
-      "count": 24708,
-      "size_kb": 14664,
+      "file": "cb-foods-fruits-1of2.json",
+      "count": 23309,
+      "size_kb": 14509,
       "part": 1,
       "parts": 2
     },
     {
-      "category": "beverages",
-      "file": "cb-foods-beverages-2of2.json",
-      "count": 18906,
-      "size_kb": 11213,
+      "category": "fruits",
+      "file": "cb-foods-fruits-2of2.json",
+      "count": 18796,
+      "size_kb": 11775,
       "part": 2,
       "parts": 2
     },
     {
-      "category": "alcohol",
-      "file": "cb-foods-alcohol.json",
-      "count": 1643,
-      "size_kb": 985,
+      "category": "fats_oils",
+      "file": "cb-foods-fats_oils.json",
+      "count": 4200,
+      "size_kb": 2583,
       "parts": 1
     },
     {
-      "category": "soups",
-      "file": "cb-foods-soups.json",
-      "count": 673,
-      "size_kb": 383,
+      "category": "spreads",
+      "file": "cb-foods-spreads.json",
+      "count": 17152,
+      "size_kb": 10276,
+      "parts": 1
+    },
+    {
+      "category": "beverages",
+      "file": "cb-foods-beverages-1of3.json",
+      "count": 23780,
+      "size_kb": 14624,
+      "part": 1,
+      "parts": 3
+    },
+    {
+      "category": "beverages",
+      "file": "cb-foods-beverages-2of3.json",
+      "count": 23780,
+      "size_kb": 14642,
+      "part": 2,
+      "parts": 3
+    },
+    {
+      "category": "beverages",
+      "file": "cb-foods-beverages-3of3.json",
+      "count": 5362,
+      "size_kb": 3348,
+      "part": 3,
+      "parts": 3
+    },
+    {
+      "category": "juices",
+      "file": "cb-foods-juices.json",
+      "count": 6341,
+      "size_kb": 3808,
+      "parts": 1
+    },
+    {
+      "category": "water",
+      "file": "cb-foods-water.json",
+      "count": 6190,
+      "size_kb": 3893,
       "parts": 1
     },
     {
       "category": "meals",
-      "file": "cb-foods-meals.json",
-      "count": 24163,
-      "size_kb": 14017,
+      "file": "cb-foods-meals-1of2.json",
+      "count": 25241,
+      "size_kb": 15483,
+      "part": 1,
+      "parts": 2
+    },
+    {
+      "category": "meals",
+      "file": "cb-foods-meals-2of2.json",
+      "count": 6930,
+      "size_kb": 4214,
+      "part": 2,
+      "parts": 2
+    },
+    {
+      "category": "soups",
+      "file": "cb-foods-soups.json",
+      "count": 7964,
+      "size_kb": 4727,
+      "parts": 1
+    },
+    {
+      "category": "fast_food",
+      "file": "cb-foods-fast_food.json",
+      "count": 421,
+      "size_kb": 265,
       "parts": 1
     },
     {
       "category": "desserts",
-      "file": "cb-foods-desserts.json",
-      "count": 13090,
-      "size_kb": 7506,
-      "parts": 1
+      "file": "cb-foods-desserts-1of2.json",
+      "count": 24956,
+      "size_kb": 15193,
+      "part": 1,
+      "parts": 2
     },
     {
-      "category": "snacks",
-      "file": "cb-foods-snacks.json",
-      "count": 25701,
-      "size_kb": 14407,
-      "parts": 1
+      "category": "desserts",
+      "file": "cb-foods-desserts-2of2.json",
+      "count": 14129,
+      "size_kb": 8648,
+      "part": 2,
+      "parts": 2
     },
     {
       "category": "candy",
       "file": "cb-foods-candy-1of2.json",
-      "count": 26329,
-      "size_kb": 14942,
+      "count": 24142,
+      "size_kb": 14654,
       "part": 1,
       "parts": 2
     },
     {
       "category": "candy",
       "file": "cb-foods-candy-2of2.json",
-      "count": 3891,
-      "size_kb": 2266,
+      "count": 8181,
+      "size_kb": 4981,
       "part": 2,
       "parts": 2
     },
     {
-      "category": "condiments",
-      "file": "cb-foods-condiments.json",
-      "count": 26195,
-      "size_kb": 14483,
+      "category": "chips",
+      "file": "cb-foods-chips-1of2.json",
+      "count": 26464,
+      "size_kb": 15667,
+      "part": 1,
+      "parts": 2
+    },
+    {
+      "category": "chips",
+      "file": "cb-foods-chips-2of2.json",
+      "count": 22095,
+      "size_kb": 13094,
+      "part": 2,
+      "parts": 2
+    },
+    {
+      "category": "crackers",
+      "file": "cb-foods-crackers.json",
+      "count": 4237,
+      "size_kb": 2578,
+      "parts": 1
+    },
+    {
+      "category": "sauces",
+      "file": "cb-foods-sauces-1of2.json",
+      "count": 25392,
+      "size_kb": 14811,
+      "part": 1,
+      "parts": 2
+    },
+    {
+      "category": "sauces",
+      "file": "cb-foods-sauces-2of2.json",
+      "count": 4501,
+      "size_kb": 2637,
+      "part": 2,
+      "parts": 2
+    },
+    {
+      "category": "spices",
+      "file": "cb-foods-spices.json",
+      "count": 3319,
+      "size_kb": 2010,
+      "parts": 1
+    },
+    {
+      "category": "dressings",
+      "file": "cb-foods-dressings.json",
+      "count": 914,
+      "size_kb": 559,
       "parts": 1
     },
     {
       "category": "supplements",
       "file": "cb-foods-supplements.json",
-      "count": 4572,
-      "size_kb": 2750,
+      "count": 6596,
+      "size_kb": 4192,
       "parts": 1
     },
     {
       "category": "baby_food",
       "file": "cb-foods-baby_food.json",
-      "count": 1042,
-      "size_kb": 573,
+      "count": 3028,
+      "size_kb": 1723,
       "parts": 1
     },
     {
       "category": "other",
-      "file": "cb-foods-other-1of36.json",
-      "count": 27250,
-      "size_kb": 14283,
+      "file": "cb-foods-other-1of25.json",
+      "count": 23647,
+      "size_kb": 13738,
       "part": 1,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-2of36.json",
-      "count": 27250,
-      "size_kb": 14153,
+      "file": "cb-foods-other-2of25.json",
+      "count": 23647,
+      "size_kb": 13672,
       "part": 2,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-3of36.json",
-      "count": 27250,
-      "size_kb": 14097,
+      "file": "cb-foods-other-3of25.json",
+      "count": 23647,
+      "size_kb": 13582,
       "part": 3,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-4of36.json",
-      "count": 27250,
-      "size_kb": 14067,
+      "file": "cb-foods-other-4of25.json",
+      "count": 23647,
+      "size_kb": 13943,
       "part": 4,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-5of36.json",
-      "count": 27250,
-      "size_kb": 14226,
+      "file": "cb-foods-other-5of25.json",
+      "count": 23647,
+      "size_kb": 13908,
       "part": 5,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-6of36.json",
-      "count": 27250,
-      "size_kb": 13957,
+      "file": "cb-foods-other-6of25.json",
+      "count": 23647,
+      "size_kb": 13878,
       "part": 6,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-7of36.json",
-      "count": 27250,
-      "size_kb": 14266,
+      "file": "cb-foods-other-7of25.json",
+      "count": 23647,
+      "size_kb": 13580,
       "part": 7,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-8of36.json",
-      "count": 27250,
-      "size_kb": 14180,
+      "file": "cb-foods-other-8of25.json",
+      "count": 23647,
+      "size_kb": 13669,
       "part": 8,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-9of36.json",
-      "count": 27250,
-      "size_kb": 14267,
+      "file": "cb-foods-other-9of25.json",
+      "count": 23647,
+      "size_kb": 13771,
       "part": 9,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-10of36.json",
-      "count": 27250,
-      "size_kb": 14156,
+      "file": "cb-foods-other-10of25.json",
+      "count": 23647,
+      "size_kb": 13723,
       "part": 10,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-11of36.json",
-      "count": 27250,
-      "size_kb": 14211,
+      "file": "cb-foods-other-11of25.json",
+      "count": 23647,
+      "size_kb": 13276,
       "part": 11,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-12of36.json",
-      "count": 27250,
-      "size_kb": 14179,
+      "file": "cb-foods-other-12of25.json",
+      "count": 23647,
+      "size_kb": 13710,
       "part": 12,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-13of36.json",
-      "count": 27250,
-      "size_kb": 14141,
+      "file": "cb-foods-other-13of25.json",
+      "count": 23647,
+      "size_kb": 13722,
       "part": 13,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-14of36.json",
-      "count": 27250,
-      "size_kb": 14297,
+      "file": "cb-foods-other-14of25.json",
+      "count": 23647,
+      "size_kb": 13963,
       "part": 14,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-15of36.json",
-      "count": 27250,
-      "size_kb": 14173,
+      "file": "cb-foods-other-15of25.json",
+      "count": 23647,
+      "size_kb": 13741,
       "part": 15,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-16of36.json",
-      "count": 27250,
-      "size_kb": 14120,
+      "file": "cb-foods-other-16of25.json",
+      "count": 23647,
+      "size_kb": 13692,
       "part": 16,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-17of36.json",
-      "count": 27250,
-      "size_kb": 14158,
+      "file": "cb-foods-other-17of25.json",
+      "count": 23647,
+      "size_kb": 13622,
       "part": 17,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-18of36.json",
-      "count": 27250,
-      "size_kb": 14148,
+      "file": "cb-foods-other-18of25.json",
+      "count": 23647,
+      "size_kb": 13742,
       "part": 18,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-19of36.json",
-      "count": 27250,
-      "size_kb": 14252,
+      "file": "cb-foods-other-19of25.json",
+      "count": 23647,
+      "size_kb": 13767,
       "part": 19,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-20of36.json",
-      "count": 27250,
-      "size_kb": 14288,
+      "file": "cb-foods-other-20of25.json",
+      "count": 23647,
+      "size_kb": 13951,
       "part": 20,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-21of36.json",
-      "count": 27250,
-      "size_kb": 14378,
+      "file": "cb-foods-other-21of25.json",
+      "count": 23647,
+      "size_kb": 13609,
       "part": 21,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-22of36.json",
-      "count": 27250,
-      "size_kb": 14300,
+      "file": "cb-foods-other-22of25.json",
+      "count": 23647,
+      "size_kb": 13740,
       "part": 22,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-23of36.json",
-      "count": 27250,
-      "size_kb": 14169,
+      "file": "cb-foods-other-23of25.json",
+      "count": 23647,
+      "size_kb": 13378,
       "part": 23,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-24of36.json",
-      "count": 27250,
-      "size_kb": 14081,
+      "file": "cb-foods-other-24of25.json",
+      "count": 23647,
+      "size_kb": 13060,
       "part": 24,
-      "parts": 36
+      "parts": 25
     },
     {
       "category": "other",
-      "file": "cb-foods-other-25of36.json",
-      "count": 27250,
-      "size_kb": 14145,
+      "file": "cb-foods-other-25of25.json",
+      "count": 11739,
+      "size_kb": 6342,
       "part": 25,
-      "parts": 36
-    },
-    {
-      "category": "other",
-      "file": "cb-foods-other-26of36.json",
-      "count": 27250,
-      "size_kb": 14159,
-      "part": 26,
-      "parts": 36
-    },
-    {
-      "category": "other",
-      "file": "cb-foods-other-27of36.json",
-      "count": 27250,
-      "size_kb": 14280,
-      "part": 27,
-      "parts": 36
-    },
-    {
-      "category": "other",
-      "file": "cb-foods-other-28of36.json",
-      "count": 27250,
-      "size_kb": 14156,
-      "part": 28,
-      "parts": 36
-    },
-    {
-      "category": "other",
-      "file": "cb-foods-other-29of36.json",
-      "count": 27250,
-      "size_kb": 14373,
-      "part": 29,
-      "parts": 36
-    },
-    {
-      "category": "other",
-      "file": "cb-foods-other-30of36.json",
-      "count": 27250,
-      "size_kb": 14185,
-      "part": 30,
-      "parts": 36
-    },
-    {
-      "category": "other",
-      "file": "cb-foods-other-31of36.json",
-      "count": 27250,
-      "size_kb": 14183,
-      "part": 31,
-      "parts": 36
-    },
-    {
-      "category": "other",
-      "file": "cb-foods-other-32of36.json",
-      "count": 27250,
-      "size_kb": 14257,
-      "part": 32,
-      "parts": 36
-    },
-    {
-      "category": "other",
-      "file": "cb-foods-other-33of36.json",
-      "count": 27250,
-      "size_kb": 14175,
-      "part": 33,
-      "parts": 36
-    },
-    {
-      "category": "other",
-      "file": "cb-foods-other-34of36.json",
-      "count": 27250,
-      "size_kb": 14277,
-      "part": 34,
-      "parts": 36
-    },
-    {
-      "category": "other",
-      "file": "cb-foods-other-35of36.json",
-      "count": 27250,
-      "size_kb": 14297,
-      "part": 35,
-      "parts": 36
-    },
-    {
-      "category": "other",
-      "file": "cb-foods-other-36of36.json",
-      "count": 6513,
-      "size_kb": 3338,
-      "part": 36,
-      "parts": 36
+      "parts": 25
     }
   ]
 }
